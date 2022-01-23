@@ -14,7 +14,7 @@ public class ReadMoviesList {
         this.movieCount = 0;
     }
 
-    // Methods:
+    // Method:
     void getRandomMovie(String filePath) throws FileNotFoundException {
         File file = new File(filePath);
         Scanner scannedFile = new Scanner(file);
@@ -42,6 +42,5 @@ public class ReadMoviesList {
 
         // Assign random movie name
         randomMovie = moviesList[randomIndex];
-
     }
 }
